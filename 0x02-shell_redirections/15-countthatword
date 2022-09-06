@@ -1,0 +1,2 @@
+#!/bin/basj
+grep -c -i "bin" /etc/passwd
