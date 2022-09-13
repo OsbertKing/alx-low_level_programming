@@ -12,8 +12,8 @@ int main(void)
 	int n;
 	int lastn;
 
-	strand(time(0));
-	n = rand - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - (RAND_MAX / 2);
 	lastn = n % 10;
 
 	if (n > 5)
