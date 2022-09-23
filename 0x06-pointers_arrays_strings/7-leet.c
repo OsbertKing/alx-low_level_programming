@@ -8,7 +8,7 @@
 
 char *leet(char *s)
 {
-	char alphaArray[] = "a4A4e3E300Oot7T7l1L1";
+	char alphaArray[] = "a4A4e3E3o0O0t7T7l1L1";
 	int i;
 	int j;
 
