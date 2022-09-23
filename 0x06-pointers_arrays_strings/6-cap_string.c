@@ -5,7 +5,7 @@
  * Return: true or false
  */
 
-int _indexOf(char *a)
+int _indexOf(char a)
 {
 	int i;
 	char capArr[] = {'\n', '\t', ' ', '.', ',', ';', ',', '!',
@@ -24,7 +24,7 @@ int _indexOf(char *a)
  * Return: capitalized string
  */
 
-char cap_string(char *s)
+char *cap_string(char *s)
 {
 	int i;
 
