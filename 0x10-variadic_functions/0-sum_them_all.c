@@ -12,12 +12,12 @@ int sum_them_all(const unsigned int n, ...)
 	register unsigned int i;
 	int sum = 0;
 
-	va_list = arguements;
+	va_list arguements;
 
 	va_start(arguements, n);
 
 	for (i = 0; i < n; i++)
-		sum = va_arg(arguements, n);
+		sum += va_arg(arguements, int);
 	va_end(arguements);
 	return (sum);
 }
