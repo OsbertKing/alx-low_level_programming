@@ -5,12 +5,13 @@
  * @array : array to be searched
  * @size : arraysize
  * @cmp :pointer
- * Return : 0 or 1
+ *
+ * Return : index or -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int x,i;
+	int x, i;
 
 	if (size > 0 && array && cmp)
 	{
