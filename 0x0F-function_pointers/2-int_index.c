@@ -4,9 +4,8 @@
  * int_index - finds an integer
  * @array : array to be searched
  * @size : arraysize
- * @cmp :pointer
- *
- * Return : index or -1
+ * @cmp : pointer
+ * Return: index or -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
