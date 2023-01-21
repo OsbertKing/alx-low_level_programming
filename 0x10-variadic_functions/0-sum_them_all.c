@@ -3,7 +3,7 @@
 /**
  * sum_them_all - sums up all arguements
  * @n : numberof arguments
- * Return : int
+ * Return: int
  */
 
 int sum_them_all(const unsigned int n, ...)
