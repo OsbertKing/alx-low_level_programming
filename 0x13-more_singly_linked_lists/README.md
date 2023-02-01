@@ -1,0 +1,1 @@
+This project practices more on singy linked list
